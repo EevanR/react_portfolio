@@ -16,3 +16,18 @@ footer {
     margin-top: 4em;
 }
 
+.ui.container {
+    width: 1365px;
+    margin-bottom: 100px;
+}
+
+.ui.menu {
+    max-height: 40px;
+}
+
+.ui.grid>* {
+}
+
+.ui.grid+.grid {
+    place-content: center;
+}
