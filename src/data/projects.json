@@ -1,20 +1,25 @@
 [
     {
       "id": 1,
+      "link": "https://eevanr.github.io/BMI_Challenge/src/",
       "name": "BMI Calculator",
-      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-      "description": "This was my first project. The guy lost, but won the popular vote!"
+      "image": "https://i.imgur.com/pkbNjly.png",
+      "description": "One of my first projects, check your body mass index here. Written in javaScript."
     },
     {
       "id": 2,
+      "link":"https://eevanr.github.io/fizzbuzz_js_Eevan/",
       "name": "FizzBuzz",
       "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "Designing user interfaces is fun. I want to learn more about that..."
+      "description": "A simple application utilizing a function to return an output. Written in javaScript, unit and feature tests with e2e training wheel testing package."
     },
     {
       "id": 3,
-      "name": "ATM Project",
+      "link":"https://eevanr.github.io/address_book/",
+      "name": "Address Book",
       "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+      "description": "Browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
     }
   ]
+
+  
