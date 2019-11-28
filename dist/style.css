@@ -12,6 +12,15 @@ footer {
     text-align: center;
 }
 
+.img {
+    width: 400px;
+    border-radius: 75px;
+    opacity: 1;
+    box-shadow: 10px 10px 5px grey;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
 .main.container {
     margin-top: 4em;
 }
@@ -19,6 +28,9 @@ footer {
 .ui.container {
     width: 1365px;
     margin-bottom: 100px;
+    left: 0;
+    right: 0;
+    position: absolute;
 }
 
 .ui.menu {
@@ -30,4 +42,29 @@ footer {
 
 .ui.grid+.grid {
     place-content: center;
+}
+
+.ui.inverted.menu .item {
+    height: max-content;
+    font-size: 110%;
+}
+
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 0;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 250ms linear;
 }
