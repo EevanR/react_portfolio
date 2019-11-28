@@ -3,9 +3,9 @@ import React from "react"
 const Hello = () => {
     return (
         <div className="ui main container">
-          <h1>
-            Welcome.
-          </h1>
+            <h1 class="welcome">
+              Welcome.
+            </h1>
         </div>
     )
 }
