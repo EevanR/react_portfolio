@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div class="column">
               <h1>About Me</h1>
-              <p>Eevan Redon from <span class="blueText">rainy</span> Vancouver, Canada.</p>
+              <p>Eevan Redon, from <span class="blueText">rainy</span> Vancouver, Canada.</p>
             </div>
           </div>
         </div>

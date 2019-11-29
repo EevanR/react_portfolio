@@ -45,7 +45,6 @@ class Projects extends Component {
             </div>
             <div className="column">
               <h1>My Projects</h1>
-              <p>The best around.</p>
             </div>
           </div>
           <div className="ui stackable four column grid">
