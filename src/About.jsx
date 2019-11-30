@@ -8,7 +8,7 @@ const About = () => {
               <img src="" />
             </div>
             <div class="column">
-              <h1>About Me</h1>
+              <h1>aboutMe</h1>
               <p>Eevan Redon, from <span class="blueText">rainy</span> Vancouver, Canada.</p>
             </div>
           </div>
