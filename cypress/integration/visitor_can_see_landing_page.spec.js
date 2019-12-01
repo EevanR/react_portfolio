@@ -47,10 +47,7 @@ describe('Visitor can see all pages', () => {
 
         cy.get(".column").find("img").should("be.visible")
 
-        cy.get("ui.card")
-        .should("contain", " ")
-        .and("contain", " ")
-        .and("contain", " ")
+        cy.get(".ui.card").should("have.length", 3)
     
     });
 })

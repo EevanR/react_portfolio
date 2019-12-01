@@ -55,9 +55,7 @@ h1 {
 }
 
 .ui.main.container {
-    height: 100%;
-    padding: 0;
-    margin: 0;
+    margin-bottom: 100px;
     padding-top: 4em;
 }
 
@@ -159,4 +157,17 @@ h1 {
 .blueDiv {
     background-color: rgba(65, 105, 225, 0.55);
     border-radius: 4px;
+}
+
+#jobslist {
+    margin-top: 30px;
+    place-content: center;
+    margin-bottom: 60px;
+    
+}
+
+#uiHome {
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
