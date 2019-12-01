@@ -2,19 +2,20 @@
     {
       "id": 1,
       "name": "Super Yachts",
-      "image": "",
-      "description": ""
+      "image": "https://i.imgur.com/AgQuQsZ.png",
+      "description": "Various vessels, 48m-135m – World Itinerary - Senior Deck",
+      "duties": ""
     },
     {
       "id": 2,
       "name": "The Keg Steakhouse Bar & Grill",
-      "image": "",
-      "description": ""
+      "image": "https://i.imgur.com/vEZOlQt.png",
+      "description": "1st Cook Kitchen Leader / Server"
     },
     {
       "id": 3,
       "name": "ATS Retail Solutions",
-      "image": "",
-      "description": ""
+      "image": "https://i.imgur.com/Znd7e09.png",
+      "description": "Clerk + Assistant to Operations Manager"
     }
   ]

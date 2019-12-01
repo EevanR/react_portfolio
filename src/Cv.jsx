@@ -43,7 +43,7 @@ class Jobs extends Component {
                                     <p id="bannerText">"{info.profile}"</p>
                                 </div>
                                 <div className="column">
-                                    <h1 className="titleText">Resum<span class="blueText">é</span></h1>
+                                    <h1 className="titleText">digital<span class="blueText">Resume</span></h1>
                                     <img className="headshot" src="https://i.imgur.com/L38tMS2.jpg" />
                                 </div>
                             </div>
@@ -53,11 +53,11 @@ class Jobs extends Component {
                             <div id="jobslist" className="ui stackable four column grid">
                                 {jobsList}
                             </div>
-                            <div className="centerText">
-                                <h5 id="bannerText2">Education</h5>
-                            </div>
-                            <div>
-                                <p></p>
+                            <div id="description2" className="centerText">
+                                <div>
+                                    <h5 id="bannerText">Education</h5>
+                                    <p id="pDes">{info.education}</p>
+                                </div>
                             </div>
                         </div>
                 })}

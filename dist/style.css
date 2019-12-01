@@ -28,6 +28,8 @@ h1 {
 
 .centerText {
     text-align: center;
+    align-content: center;
+    margin-top: 100px;
 }
 
 .white {
@@ -40,20 +42,16 @@ h1 {
 }
 
 #bannerText {
-    font-size: 20px;
-    font-family: libre baskerville,Georgia,serif;
-}
-
-#bannerText2 {
     color: rgb(248, 247, 247);
     width: 100%;
     font-size: 20px;
     font-family: libre baskerville,Georgia,serif;
+    font-size: 25px;
 }
 
 
 .blueText {
-    color: rgba(46, 84, 211, 0.66);
+    color: rgba(46, 84, 211, 0.769);
     font-weight: 600;
     font-size: 50px;
 }
@@ -110,7 +108,7 @@ h1 {
     max-height: 300px;
 }
 
-.ui.grid {
+.ui.grid+.gro {
     margin-bottom: 30px;
 }
 
@@ -162,20 +160,72 @@ h1 {
     filter: grayscale(40%);
 }
 
-.blueDiv {
-    background-color: rgba(65, 105, 225, 0.55);
-    border-radius: 4px;
-}
-
 #jobslist {
-    margin-top: 30px;
+    margin-top: 60px;
     place-content: center;
     margin-bottom: 60px;
-    
 }
 
 #uiHome {
     height: 100%;
     padding: 0;
     margin: 0;
+}
+
+.jobsTitle {
+    height: 50px;
+    padding: 10px ;
+    text-align: center;
+    
+}
+
+.zoom {
+    border: 1px solid;
+    height: 250px;
+    width: 375px;
+    margin-left: 10px;
+    clear: both;
+    -webkit-transition: line-height 1s, height 1s, opacity 1s, border-radius 3s;
+}
+
+.zoom:hover {
+    background-color: rgba(219, 223, 219, 0.338);
+    color: #fff;
+    height: 600px;
+    line-height:50px;
+    display: block;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.zoom h5 {
+    display: none;
+}
+.zoom:hover h5 {
+    display: block;
+}
+
+.zoom p {
+    display: none;
+}
+.zoom:hover p {
+    display: block;
+    text-align: center;
+    margin: 2%;
+}
+
+.description {
+    text-align: center;
+}
+
+#description2 {
+    font-size: 15px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.338);
+    height: 150px;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+#pDes {
+    font-size: 18px;
 }

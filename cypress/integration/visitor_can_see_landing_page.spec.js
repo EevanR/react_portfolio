@@ -38,7 +38,7 @@ describe('Visitor can see all pages', () => {
         cy.get("nav").contains("Resume").click()
 
         cy.get(".column")
-            .should("contain", "Resumé")
+            .should("contain", "Resume")
 
         cy.get(".ui.main.container.fade-enter-done")
             .should("contain", "to continue")
@@ -47,7 +47,9 @@ describe('Visitor can see all pages', () => {
 
         cy.get(".column").find("img").should("be.visible")
 
-        cy.get(".ui.card").should("have.length", 3)
+        cy.get(".zoom").should("have.length", 3)
+
+        cy.get(".ui.main.container").contains("cv.education")
     
     });
 })
