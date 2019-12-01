@@ -44,7 +44,7 @@ class Projects extends Component {
               <UndrawDesigner primaryColor='#12283a' height='200px' />
             </div>
             <div className="column">
-              <h1>myProjects</h1>
+              <h1>my<span class="blueText">Projects</span></h1>
             </div>
           </div>
           <div className="ui stackable four column grid">

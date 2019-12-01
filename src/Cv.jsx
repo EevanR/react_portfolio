@@ -54,7 +54,7 @@ class Jobs extends Component {
                                 {jobsList}
                             </div>
                             <div className="centerText">
-                                <h5 id="bannerText">Education</h5>
+                                <h5 id="bannerText2">Education</h5>
                             </div>
                             <div>
                                 <p></p>
