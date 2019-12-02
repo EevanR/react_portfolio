@@ -220,10 +220,10 @@ h1 {
 #description2 {
     font-size: 15px;
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.338);
-    height: 180px;
+    background-color: rgba(128, 128, 128, 0.201);
     padding: 2%;
     border-radius: 10px;
+    position: relative;
 }
 
 #pDes {
@@ -232,8 +232,8 @@ h1 {
 }
 
 #greyBox {
-    background-color: rgba(128, 128, 128, 0.338);
-    height: 80px;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.201);
     padding: 2%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
