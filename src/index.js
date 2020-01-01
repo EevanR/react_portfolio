@@ -6,7 +6,6 @@ import Footer from "./Footer"
 import { BrowserRouter } from 'react-router-dom'
 import Projects from "./Projects"
 import About from "./About"
-import Cv from "./Cv"
 import Jobs from "./Cv"
 import { Switch, Route } from 'react-router-dom'
 import {
