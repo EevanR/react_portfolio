@@ -24,11 +24,18 @@
       "id": 4,
       "link":"https://eredonrockpaperscissors.netlify.com",
       "name": "Rock Paper Scissors in React",
-      "image": "https://imgur.com/IDqaASg",
-      "description": "Using React to build a simple game of Rock Paper Scissors vs a randomly generated computer choice."
+      "image": "https://i.imgur.com/IDqaASg.png",
+      "description": "Using React to build a simple game of Rock Paper Scissors vs a randomly generated computer choice. Testing with cypress"
     },
     {
       "id": 5,
+      "link":"https://slowfood-oct2019.herokuapp.com/",
+      "name": "Greta's Greens",
+      "image": "https://i.imgur.com/kx1qP2Y.png",
+      "description": "In a team of 4, Ruby on Rails was used to build a platform where an Owner can create a menu, so visiting guests may place an order. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec. "
+    },
+    {
+      "id": 6,
       "link":"",
       "name": "Unavailable",
       "image": "https://i.imgur.com/HEKYRRV.png",
