@@ -5,7 +5,7 @@
       "gitHub": "https://github.com/EevanR/cooper-client-react",
       "name": "Cooper Run App",
       "image": "https://i.imgur.com/Tr9e9uH.png",
-      "description": ""
+      "description": "React front-end connected to Rails API, TDD with RSpec and Cypress"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "gitHub": "https://github.com/EevanR/RubyonRails",
       "name": "Rails Article Application",
       "image": "https://i.imgur.com/XV98QDq.png",
-      "description": "Web applitcation where users can use to create accounts and share articles. Authentication with Devise, feature and unit test with Cucumber and Rspec."
+      "description": "Minimally styled Rails application, Devise Authentication, Pundit authorization. Cucumber and Rspec TDD."
     },
     {
       "id": 4,

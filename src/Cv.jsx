@@ -43,7 +43,7 @@ class Jobs extends Component {
                                     <p id="bannerText">"{info.profile}"</p>
                                 </div>
                                 <div className="column">
-                                    <h1 className="titleText">digital<span class="blueText">Resume</span></h1>
+                                    <h1 className="titleText">about<span id="blue">Me</span></h1>
                                     <img className="headshot" src="https://i.imgur.com/L38tMS2.jpg" />
                                 </div>
                             </div>
