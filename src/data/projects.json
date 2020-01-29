@@ -1,56 +1,64 @@
 [
     {
       "id": 1,
-      "link": "https://eevanr.github.io/BMI_Challenge/src/",
-      "name": "BMI Calculator",
-      "image": "https://i.imgur.com/pkbNjly.png",
-      "description": "One of my first projects, check your body mass index here. Written in javaScript."
-    },
-    {
-      "id": 2,
-      "link":"https://eevanr.github.io/fizzbuzz_js_Eevan/",
-      "name": "FizzBuzz",
-      "image": "https://i.imgur.com/GjxKurZ.png",
-      "description": "A simple application utilizing a function to return an output. Written in javaScript, unit and feature tests with e2e training wheel testing package."
-    },
-    {
-      "id": 3,
-      "link":"https://eevanr.github.io/address_book/",
-      "name": "Address Book",
-      "image": "https://i.imgur.com/2vosk54.png",
-      "description": "Browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
-    },
-    {
-      "id": 4,
-      "link":"https://eredonrockpaperscissors.netlify.com",
-      "name": "Rock Paper Scissors in React",
-      "image": "https://i.imgur.com/IDqaASg.png",
-      "description": "Using React to build a simple game of Rock Paper Scissors vs a randomly generated computer choice. Testing with cypress"
-    },
-    {
-      "id": 5,
-      "link":"https://slowfood-oct2019.herokuapp.com/",
-      "name": "Greta's Greens",
-      "image": "https://i.imgur.com/kx1qP2Y.png",
-      "description": "In a team of 4, Ruby on Rails was used to build a platform where an Owner can create a menu, so visiting guests may place an order. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec. "
-    },
-    {
-      "id": 6,
-      "link":"https://ca-rails-aut-eevan.herokuapp.com/",
-      "name": "Rails Article Application",
-      "image": "https://i.imgur.com/XV98QDq.png",
-      "description": "Web applitcation where users can use to create accounts and share articles. Authentication with Devise, feature and unit test with Cucumber and Rspec."
-    },
-    {
-      "id": 7,
       "link":"https://cooper-client-eevan.netlify.com/",
+      "gitHub": "https://github.com/EevanR/cooper-client-react",
       "name": "Cooper Run App",
       "image": "https://i.imgur.com/Tr9e9uH.png",
       "description": ""
     },
     {
-      "id": 8,
+      "id": 2,
+      "link":"https://slowfood-oct2019.herokuapp.com/",
+      "gitHub": "https://github.com/EevanR/slowfood-october-2019",
+      "name": "Greta's Greens",
+      "image": "https://i.imgur.com/kx1qP2Y.png",
+      "description": "Developed with Rails, An Owner can create a menu, so visiting guests may place an order. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec. "
+    },
+    {
+      "id": 3,
+      "link":"https://ca-rails-aut-eevan.herokuapp.com/",
+      "gitHub": "https://github.com/EevanR/RubyonRails",
+      "name": "Rails Article Application",
+      "image": "https://i.imgur.com/XV98QDq.png",
+      "description": "Web applitcation where users can use to create accounts and share articles. Authentication with Devise, feature and unit test with Cucumber and Rspec."
+    },
+    {
+      "id": 4,
+      "link":"https://eevanr.github.io/address_book/",
+      "gitHub": "https://github.com/EevanR/address_book",
+      "name": "Address Book",
+      "image": "https://i.imgur.com/2vosk54.png",
+      "description": "Browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
+    },
+    {
+      "id": 5,
+      "link":"https://eredonrockpaperscissors.netlify.com",
+      "gitHub": "https://eredonrockpaperscissors.netlify.com/",
+      "name": "Rock Paper Scissors in React",
+      "image": "https://i.imgur.com/IDqaASg.png",
+      "description": "Using React to build a simple game of Rock Paper Scissors vs a randomly generated computer choice. Testing with cypress"
+    },
+    {
+      "id": 6,
+      "link":"https://bmi-react-eevan.netlify.com/",
+      "gitHub": "https://github.com/EevanR/bmi-react",
+      "name": "BMI challenge React",
+      "image": "https://i.imgur.com/RMfVtsd.png",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "link": "https://eevanr.github.io/BMI_Challenge/src/",
+      "gitHub": "https://github.com/EevanR/BMI_Challenge",
+      "name": "BMI Calculator",
+      "image": "https://i.imgur.com/pkbNjly.png",
+      "description": "One of my first projects, check your body mass index here. Written in javaScript."
+    },
+    {
+      "id": 9,
       "link":"",
+      "gitHub": "",
       "name": "Unavailable",
       "image": "https://i.imgur.com/HEKYRRV.png",
       "description": ""
