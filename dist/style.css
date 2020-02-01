@@ -14,22 +14,22 @@ footer {
 }
 
 body {
-  background-image: url("https://images.pexels.com/photos/3178786/pexels-photo-3178786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: #272935;
   color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: EngraversGothic BT;
+  font-family: Montserrat, sans-serif;
 }
 
 h1 {
-  font-size: 50px;
-  font-weight: 500;
-  font-family: EngraversGothic BT;
+  font-size: 80px;
+  font-weight: 200;
+  font-family: Josefin Sans, sans-serif;
 }
 
-h3 {
-  font-family: EngraversGothic BT;
+p {
+  font-size: 1.2em;
 }
 
 .centerText {
@@ -53,7 +53,7 @@ h3 {
   font-size: 20px;
   font-size: 25px;
   font-weight: 500;
-  font-family: EngraversGothic BT;
+  font-family: Montserrat, sans-serif
 }
 
 #blue {
@@ -86,6 +86,11 @@ h3 {
   padding: 2%;
   min-height: 30%;
   max-height: 30%;
+}
+
+.navBar {
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .centered {
@@ -242,10 +247,19 @@ h3 {
   padding: 2%;
 }
 
+#divider {
+  width: 70%;
+  border-top: 1px solid grey;
+}
+
 .footerIcons {
-  float: right;
-  margin-right: 50px;
+  padding-top: 20px;
   font-size: 35px;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .ui.animated.button {
