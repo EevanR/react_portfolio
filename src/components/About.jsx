@@ -35,34 +35,35 @@ class Jobs extends Component {
     }
 
     return (
-      <div className="ui main container">
-        {CvInfo.map((info) => {
-          return <div>
-            <div className="ui stackable two column grid">
-              <div id="banner" className="column">
-                <p id="bannerText">"{info.profile}"</p>
+      <div className="about-section" id="about">
+        <div className="ui main container">
+          {CvInfo.map((info) => {
+            return <div>
+              <div className="ui stackable two column grid">
+                <div id="banner" className="column">
+                  <p id="bannerText">"{info.profile}"</p>
+                </div>
+                <div className="column">
+                  <h1 className="titleText">about<span id="blue">Me</span></h1>
+                </div>
               </div>
-              <div className="column">
-                <h1 className="titleText">about<span id="blue">Me</span></h1>
+              <div id="greyBox" className="centerText">
+                <h2 id="bannerText">My Working Life Until Now...</h2>
+              </div>
+              <div id="jobslist" className="ui stackable four column grid">
+                {jobsList}
+              </div>
+              <div id="description2" className="centerText">
+                <div>
+                  <h2 id="bannerText">Education</h2>
+                  <p>{info.education}</p>
+                  <p>{info.education2}</p>
+                </div>
               </div>
             </div>
-            <div id="greyBox" className="centerText">
-              <h2 id="bannerText">My Working Life Until Now...</h2>
-            </div>
-            <div id="jobslist" className="ui stackable four column grid">
-              {jobsList}
-            </div>
-            <div id="description2" className="centerText">
-              <div>
-                <h2 id="bannerText">Education</h2>
-                <p>{info.education}</p>
-                <p>{info.education2}</p>
-              </div>
-            </div>
-          </div>
-        })}
+          })}
+        </div>
       </div>
-
     )
   }
 }

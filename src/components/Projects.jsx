@@ -38,17 +38,19 @@ class Projects extends Component {
   
   
       return (
-        <div className="ui main container">
-          <div className="ui stackable two column grid">
-            <div className="column">
-              <UndrawDesigner primaryColor='#12283a' height='200px' />
+        <div className="projects-section" id="projects"> 
+          <div className="ui main container">
+            <div className="ui stackable two column grid">
+              <div className="column">
+                <UndrawDesigner primaryColor='#12283a' height='200px' />
+              </div>
+              <div className="column">
+                <h1>Projects</h1>
+              </div>
             </div>
-            <div className="column">
-              <h1>Projects</h1>
+            <div className="ui stackable four column grid">
+              {projectsList}
             </div>
-          </div>
-          <div className="ui stackable four column grid">
-            {projectsList}
           </div>
         </div>
       )
