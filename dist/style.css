@@ -23,9 +23,10 @@ body {
 }
 
 h1 {
+  letter-spacing: 3px;
   font-size: 80px;
   font-weight: 200;
-  font-family: Josefin Sans, sans-serif;
+  font-family: 'open sans',arial,sans-serif;
 }
 
 p {
@@ -252,11 +253,18 @@ p {
   border-top: 1px solid grey;
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
 .footerIcons {
   padding-top: 20px;
   font-size: 35px;
   position: absolute;
-  top: 73%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
