@@ -10,7 +10,9 @@ const Footer = () => {
   return (
     <footer>
       <div className="ui container">
-        <button onClick={() => scrollToTop()}>Back to top!</button>
+        <button class="ui circular icon button" onClick={() => scrollToTop()}>
+          <i aria-hidden="true" className="arrow up icon"></i>
+        </button>
       </div>
     </footer>
   )
