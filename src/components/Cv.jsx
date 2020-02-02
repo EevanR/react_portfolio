@@ -1,6 +1,6 @@
 import React from "react"
 
-const About = () => {
+const Cv = () => {
     return (
         <div className="ui main container">
           <div className="ui stackable two column grid">
@@ -15,4 +15,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Cv
