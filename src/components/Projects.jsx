@@ -1,60 +1,57 @@
 import React, { Component } from "react"
 import axios from "axios"
 import ProjectCard from "./ProjectCard"
-import { UndrawDesigner } from 'react-undraw-illustrations';
 
 class Projects extends Component {
-    constructor() {
-        super();
-        this.state = {
-          projects: []
-        };
-    }
-    
-    componentDidMount() {
-        axios.get('./src/data/projects.json')
-          .then(response => {
-            this.setState({
-              projects: response.data
-            })
+  constructor() {
+    super();
+    this.state = {
+      projects: []
+    };
+  }
+
+  componentDidMount() {
+    axios.get('./src/data/projects.json')
+      .then(response => {
+        this.setState({
+          projects: response.data
         })
+      })
+  }
+
+
+  render() {
+    const projects = this.state.projects
+    let projectsList
+
+    if (projects.length > 0) {
+      projectsList = projects.map(project => {
+        return (
+          <div key={project.id}>
+            <ProjectCard project={project} />
+          </div>
+        )
+      })
     }
-    
-  
-    render() {
-      const projects = this.state.projects
-      let projectsList
-  
-      if (projects.length > 0) {
-        projectsList = projects.map(project => {
-          return (
-            <div key={project.id}>
-              <ProjectCard project={project} />
+
+    return (
+      <div className="projects-section" id="projects">
+        <div className="ui main container">
+          <div className="ui stackable two column grid">
+            <div className="column">
             </div>
-          )
-        })
-      }
-  
-  
-  
-      return (
-        <div className="projects-section" id="projects"> 
-          <div className="ui main container">
-            <div className="ui stackable two column grid">
-              <div className="column">
-                <UndrawDesigner primaryColor='#12283a' height='200px' />
-              </div>
-              <div className="column">
-                <h1>Projects</h1>
-              </div>
-            </div>
-            <div className="ui stackable four column grid">
-              {projectsList}
+            <div className="column">
+              <h2 className="titleText"><span id="blue">my</span>Projects</h2>
+              <p>Projects in collaboration with <span id="orange">Craft Accademy Stockholm</span>.</p>
             </div>
           </div>
+          <div className="ui stackable two column grid">
+            {projectsList}
+          </div>
         </div>
-      )
-    }
+      </div>
+    )
+  }
 }
 
 export default Projects

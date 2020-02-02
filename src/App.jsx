@@ -17,13 +17,11 @@ const App = () => {
         <TransitionGroup>
           <CSSTransition
             key={location.key}
-            timeout={550}
+            timeout={300}
             classNames="fade"
           >
             <Switch location={location}>
               <Route exact path='/' component={Hello}></Route>
-              {/* <Route exact path='/about' component={About}></Route>
-              <Route exact path='/projects' component={Projects}></Route> */}
               <Route exact path='/cv' component={Jobs}></Route>
             </Switch>
           </CSSTransition>
