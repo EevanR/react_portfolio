@@ -25,6 +25,14 @@
     },
     {
       "id": 4,
+      "link":"https://legacy-code-eevan.herokuapp.com/",
+      "gitHub": "https://github.com/EevanR/rails_messaging_october_2019-LegacyCode",
+      "name": "Legacy Code Challenge",
+      "image": "https://i.imgur.com/W4As35E.png",
+      "description": "Was assigned to fix errors and impliment testing on some legacy code writtin in Rails."
+    },
+    {
+      "id": 5,
       "link":"https://eevanr.github.io/address_book/",
       "gitHub": "https://github.com/EevanR/address_book",
       "name": "Address Book",
@@ -32,7 +40,7 @@
       "description": "Minimally styled browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
     },
     {
-      "id": 5,
+      "id": 6,
       "link":"https://eredonrockpaperscissors.netlify.com",
       "gitHub": "https://eredonrockpaperscissors.netlify.com/",
       "name": "Rock Paper Scissors in React",
