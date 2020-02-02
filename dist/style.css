@@ -342,3 +342,9 @@ p {
 .skills i{
   margin-right: 5%;
 }
+
+.arrow.down.icon {
+  color:  rgb(117, 162, 230);
+  font-size: 15px;
+  margin-left: 15px;
+}

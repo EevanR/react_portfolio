@@ -1,36 +1,44 @@
-import React from "react"
+import React, { Component } from "react"
 import { NavLink } from 'react-router-dom';
-import { Link } from "react-scroll";
+import Nav from "./Nav"
 
-const Header = () => {
-  return (
-    <nav className='ui fixed inverted menu'>
-      <div className="ui container">
-        <NavLink className="header item" to='/'>HOME</NavLink>
-        <div className="scroll">
-          <Link id="scroll"
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={10}
-            duration={500}
-          >ABOUT</Link>
-          <Link id="scroll"
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={20}
-            duration={500}
-          >PROJECTS</Link>
+class Header extends Component {
+  constructor() {
+    super();
+    this.state = {
+      nav: <Nav />,
+    };
+  }
+
+  renderHomeButton() {
+    this.setState({
+      nav: <NavLink className="header item" to='/'
+        onClick={() => this.renderNav()}
+      >HOME</NavLink> 
+    })
+  }
+
+  renderNav() {
+    this.setState({
+      nav: <Nav />
+    })
+  }
+
+  render() {
+    const { nav } = this.state;
+    return (
+      <nav className='ui fixed inverted menu'>
+        <div className="ui container">
+          {nav}
+          <div className="right menu">
+            <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/cv'
+              onClick={() => this.renderHomeButton()}
+            >RESUME</NavLink>
+          </div>
         </div>
-        <div className="right menu">
-          <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/cv'>RESUME</NavLink>
-        </div>
-      </div>
-    </nav>
-  )
+      </nav>
+    )
+  }
 }
 
 export default Header
