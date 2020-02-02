@@ -31,9 +31,7 @@ class Header extends Component {
         <div className="ui container">
           {nav}
           <div className="right menu">
-            <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/cv'
-              onClick={() => this.renderHomeButton()}
-            ><span id="orange">RESUME</span></NavLink>
+            <a id="orange" href="https://1drv.ms/u/s!AoAKOo_731UpgQ_mo6qQiA1sqyfl" target="_blank">Resume</a>
           </div>
         </div>
       </nav>

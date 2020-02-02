@@ -371,3 +371,8 @@ span#orange {
 #pfooter {
   font-size: 20px;
 }
+
+a#orange {
+  padding-top: 10px;
+  font-size: 20px;
+}
