@@ -348,3 +348,26 @@ p {
   font-size: 15px;
   margin-left: 15px;
 }
+
+#large-letter {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+span#orange {
+  font-size: 15px;
+}
+
+.footer {
+  border-bottom: 1px solid grey;
+  text-align: center;
+  color: whitesmoke;
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 2%;
+}
+
+#pfooter {
+  font-size: 20px;
+}

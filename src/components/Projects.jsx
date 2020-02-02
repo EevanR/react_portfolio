@@ -48,6 +48,12 @@ class Projects extends Component {
           <div className="ui stackable two column grid">
             {projectsList}
           </div>
+          <div className="centerText">
+            <div className="footer">
+                <a href={`mailto: eevan.redon@gmail.com`}><p id="pfooter">Email: eevan.redon@gmail.com</p></a> 
+            </div>
+            <p>Made with React</p>
+          </div>
         </div>
       </div>
     )

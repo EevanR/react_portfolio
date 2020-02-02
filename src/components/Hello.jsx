@@ -12,7 +12,7 @@ const Hello = () => {
             <h1>
               Eevan Redon
             </h1>
-            <p id="welcome-text">Hi! I'm a Junior Developer in the Stockholm area looking for opportunities to utilize my abilities.
+            <p id="welcome-text"><span id="large-letter">Hi!</span> I'm a Junior Developer in the Stockholm area looking for opportunities to utilize my abilities.
               Have a look around to learn a bit about me!
             </p>
             <button className="ui vertical animated button">

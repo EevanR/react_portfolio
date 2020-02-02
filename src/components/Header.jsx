@@ -33,7 +33,7 @@ class Header extends Component {
           <div className="right menu">
             <NavLink className="ui item" activeStyle={{ fontWeight: "bold" }} to='/cv'
               onClick={() => this.renderHomeButton()}
-            >RESUME</NavLink>
+            ><span id="orange">RESUME</span></NavLink>
           </div>
         </div>
       </nav>

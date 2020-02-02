@@ -5,7 +5,7 @@
       "gitHub": "https://github.com/EevanR/cooper-client-react",
       "name": "Cooper Run App",
       "image": "https://i.imgur.com/Tr9e9uH.png",
-      "description": "React front-end connected to Rails API, TDD with RSpec and Cypress"
+      "description": "React front-end connected to Rails API, Devise authentication and TDD with RSpec and Cypress"
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "gitHub": "https://github.com/EevanR/slowfood-october-2019",
       "name": "Greta's Greens",
       "image": "https://i.imgur.com/kx1qP2Y.png",
-      "description": "Developed with Rails, An Owner can create a menu, so visiting guests may place an order. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec. "
+      "description": "Developed with Ruby on Rails, An Owner can create a menu, so visiting guests may place an order. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec. "
     },
     {
       "id": 3,
@@ -29,7 +29,7 @@
       "gitHub": "https://github.com/EevanR/address_book",
       "name": "Address Book",
       "image": "https://i.imgur.com/2vosk54.png",
-      "description": "Browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
+      "description": "Minimally styled browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
     },
     {
       "id": 5,
