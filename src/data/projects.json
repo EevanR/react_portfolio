@@ -38,31 +38,5 @@
       "name": "Rock Paper Scissors in React",
       "image": "https://i.imgur.com/IDqaASg.png",
       "description": "Using React to build a simple game of Rock Paper Scissors vs a randomly generated computer choice. Testing with cypress"
-    },
-    {
-      "id": 6,
-      "link":"https://bmi-react-eevan.netlify.com/",
-      "gitHub": "https://github.com/EevanR/bmi-react",
-      "name": "BMI challenge React",
-      "image": "https://i.imgur.com/RMfVtsd.png",
-      "description": ""
-    },
-    {
-      "id": 7,
-      "link": "https://eevanr.github.io/BMI_Challenge/src/",
-      "gitHub": "https://github.com/EevanR/BMI_Challenge",
-      "name": "BMI Calculator",
-      "image": "https://i.imgur.com/pkbNjly.png",
-      "description": "One of my first projects, check your body mass index here. Written in javaScript."
-    },
-    {
-      "id": 9,
-      "link":"",
-      "gitHub": "",
-      "name": "Unavailable",
-      "image": "https://i.imgur.com/HEKYRRV.png",
-      "description": ""
     }
   ]
-
-  

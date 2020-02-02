@@ -4,10 +4,10 @@ const JobsCard = (props) => {
   let job = props.job
   return (
     <>
-      <div class="zoom">
+      <div className="zoom">
         <img src={job.image} width="100%" height="248px" />
         <div>
-          <h5 class="description">{job.name}</h5>
+          <h5 className="description">{job.name}</h5>
           <p>{job.description}</p>
           <p></p>
         </div>
