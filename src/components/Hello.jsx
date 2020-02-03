@@ -12,8 +12,9 @@ const Hello = () => {
             <h1>
               Eevan Redon
             </h1>
-            <p id="welcome-text"><span id="large-letter">Hi!</span> I'm a Junior Developer in the Stockholm area looking for opportunities to utilize my abilities.
-              Have a look around to learn a bit about me!
+            <p id="welcome-text"><span id="large-letter">Hi!</span> I'm a new <span id="orange">Full Stack Developer</span>, 
+              in the Stockholm area, currently using <span id="red">Rails</span> and <span id="light-blue">React</span> to build my projects.
+              Have a look around, and visit the links, to learn a bit about me!
             </p>
             <button className="ui vertical animated button">
               <div className="visible content"><span id="blue">View Projects</span></div>
