@@ -43,7 +43,7 @@ class Projects extends Component {
             <div className="column">
               <h2 className="titleText"><span id="blue">my</span>Projects</h2>
               <p>A few projects assigned by <span id="orange">Craft Accademy Stockholm</span>. 
-              One week was given to complete each assigment!
+              One week was given to complete most assigments.
               To see more code and purley backend work visit my GitHub.</p>
             </div>
           </div>

@@ -1,50 +1,68 @@
 [
-    {
-      "id": 1,
-      "link":"https://cooper-client-eevan.netlify.com/",
-      "gitHub": "https://github.com/EevanR/cooper-client-react",
-      "name": "Cooper Run App",
-      "image": "https://i.imgur.com/Tr9e9uH.png",
-      "description": "React front-end connected to Rails API, Devise authentication and TDD with RSpec and Cypress"
-    },
-    {
-      "id": 2,
-      "link":"https://slowfood-oct2019.herokuapp.com/",
-      "gitHub": "https://github.com/EevanR/slowfood-october-2019",
-      "name": "Greta's Greens",
-      "image": "https://i.imgur.com/kx1qP2Y.png",
-      "description": "Developed with Ruby on Rails, An Owner can create a menu, so visiting guests may place an order. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec. "
-    },
-    {
-      "id": 3,
-      "link":"https://ca-rails-aut-eevan.herokuapp.com/",
-      "gitHub": "https://github.com/EevanR/RubyonRails",
-      "name": "Rails Article Application",
-      "image": "https://i.imgur.com/XV98QDq.png",
-      "description": "Minimally styled Rails application, Devise Authentication, Pundit authorization. Cucumber and Rspec TDD."
-    },
-    {
-      "id": 4,
-      "link":"https://legacy-code-eevan.herokuapp.com/",
-      "gitHub": "https://github.com/EevanR/rails_messaging_october_2019-LegacyCode",
-      "name": "Legacy Code Challenge",
-      "image": "https://i.imgur.com/W4As35E.png",
-      "description": "Was assigned to fix errors and impliment testing on some legacy code writtin in Rails."
-    },
-    {
-      "id": 5,
-      "link":"https://eevanr.github.io/address_book/",
-      "gitHub": "https://github.com/EevanR/address_book",
-      "name": "Address Book",
-      "image": "https://i.imgur.com/2vosk54.png",
-      "description": "Minimally styled browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
-    },
-    {
-      "id": 6,
-      "link":"https://eredonrockpaperscissors.netlify.com",
-      "gitHub": "https://eredonrockpaperscissors.netlify.com/",
-      "name": "Rock Paper Scissors in React",
-      "image": "https://i.imgur.com/IDqaASg.png",
-      "description": "Using React to build a simple game of Rock Paper Scissors vs a randomly generated computer choice. Testing with cypress"
-    }
-  ]
+  {
+    "id": 1,
+    "link": "https://the-reactive-herald-ca.netlify.com/",
+    "gitHub": "https://github.com/EevanR/the_reactive_herald_client",
+    "gitHubAPI": "https://github.com/EevanR/the_reactive_herald_API",
+    "name": "The Reactive Herald",
+    "image": "https://i.imgur.com/iqVLJBu.png",
+    "description": "'Build a Newsroom' project. Client side in React Redux, Rails API, TDD with Cypress and Rspec, CI with Semaphore and test coverage with Coveralls."
+  },
+  {
+    "id": 2,
+    "link": "https://cooper-client-eevan.netlify.com/",
+    "gitHubAPI": "https://github.com/EevanR/cooper-api",
+    "gitHub": "https://github.com/EevanR/cooper-client-react",
+    "name": "Cooper Run App",
+    "image": "https://i.imgur.com/Tr9e9uH.png",
+    "description": "React front-end connected to Rails API, Devise authentication and TDD with RSpec and Cypress"
+  },
+  {
+    "id": 3,
+    "link": "https://slowfood-oct2019.herokuapp.com/",
+    "gitHub": "https://github.com/EevanR/slowfood-october-2019",
+    "name": "Greta's Greens",
+    "image": "https://i.imgur.com/kx1qP2Y.png",
+    "description": "Developed with Ruby on Rails, Quick food order application. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec.  CI with Semaphore and test coverage with Coveralls "
+  },
+  {
+    "id": 4,
+    "link": "https://eevanrportfolio.netlify.com/",
+    "gitHub": "https://github.com/EevanR/react_portfolio",
+    "name": "React Portfolio",
+    "image": "https://i.imgur.com/gVBRMMU.png",
+    "description": "Developed with React."
+  },
+  {
+    "id": 5,
+    "link": "https://ca-rails-aut-eevan.herokuapp.com/",
+    "gitHub": "https://github.com/EevanR/RubyonRails",
+    "name": "Rails Article Application",
+    "image": "https://i.imgur.com/XV98QDq.png",
+    "description": "Minimally styled Rails application, Devise Authentication, Pundit authorization. Cucumber and Rspec TDD."
+  },
+  {
+    "id": 6,
+    "link": "https://legacy-code-eevan.herokuapp.com/",
+    "gitHub": "https://github.com/EevanR/rails_messaging_october_2019-LegacyCode",
+    "name": "Legacy Code Challenge",
+    "image": "https://i.imgur.com/W4As35E.png",
+    "description": "Was assigned to fix errors and impliment testing on some legacy code writtin in Rails."
+  },
+  {
+    "id": 7,
+    "link": "https://eevanr.github.io/address_book/",
+    "gitHub": "https://github.com/EevanR/address_book",
+    "name": "Address Book",
+    "image": "https://i.imgur.com/2vosk54.png",
+    "description": "Minimally styled browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
+  },
+  {
+    "id": 8,
+    "link": "https://eredonrockpaperscissors.netlify.com",
+    "gitHub": "https://eredonrockpaperscissors.netlify.com/",
+    "name": "Rock Paper Scissors in React",
+    "image": "https://i.imgur.com/IDqaASg.png",
+    "description": "Using React to build a simple game of Rock Paper Scissors vs a randomly generated computer choice. Testing with cypress"
+  }
+]
