@@ -6,7 +6,7 @@
     "gitHubAPI": "https://github.com/EevanR/the_reactive_herald_API",
     "name": "The Reactive Herald",
     "image": "https://i.imgur.com/iqVLJBu.png",
-    "description": "'Build a Newsroom' project. Client side in React Redux, Rails API, TDD with Cypress and Rspec, CI with Semaphore and test coverage with Coveralls."
+    "description": "'Build a Newsroom' project. Client side in React Redux, Rails API, TDD with Cypress and Rspec, CI with Semaphore and test coverage with Coveralls. Subscription payments through Stripe."
   },
   {
     "id": 2,
