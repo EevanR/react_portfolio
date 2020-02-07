@@ -56,13 +56,5 @@
     "name": "Address Book",
     "image": "https://i.imgur.com/2vosk54.png",
     "description": "Minimally styled browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
-  },
-  {
-    "id": 8,
-    "link": "https://eredonrockpaperscissors.netlify.com",
-    "gitHub": "https://eredonrockpaperscissors.netlify.com/",
-    "name": "Rock Paper Scissors in React",
-    "image": "https://i.imgur.com/IDqaASg.png",
-    "description": "Using React to build a simple game of Rock Paper Scissors vs a randomly generated computer choice. Testing with cypress"
   }
 ]
