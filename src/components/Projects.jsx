@@ -42,9 +42,8 @@ class Projects extends Component {
             </div>
             <div className="column">
               <h2 className="titleText"><span id="blue">my</span>Projects</h2>
-              <p>A few projects assigned by <span id="orange">Craft Accademy Stockholm</span>. 
-              One week was given to complete most assigments.
-              To see more code and purley backend work visit my GitHub.</p>
+              <p>A few examples of weekly projects in collaboration with <span id="orange">Craft Accademy Stockholm</span>.
+              To see the code and other purley backend works click any of the GitHub icons around the site.</p>
             </div>
           </div>
           <div className="ui stackable two column grid">

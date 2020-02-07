@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
     <>
       <div className="zoom">
         <div className="ui card">
-          <a href={project.link} target="_blank"><img src={project.image} width="100%" height="300px" /></a>
+          <img src={project.image} width="100%" height="300px" />
           <div className="bottom-left">
             <h5>{project.name} <a href={project.gitHub} target="_blank"><i className="github icon"></i></a>
               {project.gitHubAPI ? (
