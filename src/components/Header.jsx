@@ -31,7 +31,7 @@ class Header extends Component {
         <div className="ui container">
           {nav}
           <div className="right menu">
-            <a id="orange" href="https://1drv.ms/u/s!AoAKOo_731UpgQ_mo6qQiA1sqyfl" target="_blank">Resume</a>
+            <a id="orange" href="https://1drv.ms/b/s!AoAKOo_731UpgREwkxaIif7nI9FD" target="_blank">Resume</a>
           </div>
         </div>
       </nav>

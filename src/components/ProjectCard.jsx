@@ -2,7 +2,7 @@ import React from "react"
 
 const ProjectCard = (props) => {
   let project = props.project
-  debugger
+  
   return (
     <>
       <div className="zoom">
