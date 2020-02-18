@@ -54,7 +54,7 @@
     "gitHubAPI": "https://github.com/EevanR/RubyonRails",
     "name": "Rails Article Application",
     "image": "https://i.imgur.com/XV98QDq.png",
-    "description": "Minimally styled Rails application, Devise Authentication, Pundit authorization. Cucumber and Rspec TDD."
+    "description": "One of the 1st examples of building a fully functional application using Ruby on Rails. CRUD actions are used to operate this article/blog platform, where one can register, sign in, write, read, comment on and delete articles. It is minimally styled while focusing mainly on functionality. Devise Authentication, Pundit authorization. Cucumber and Rspec TDD. Future plans are to add styling and functionality, such as subscriptions and payments through stripe."
   },
   {
     "id": 7,
@@ -63,6 +63,6 @@
     "gitHubAPI": "https://github.com/EevanR/rails_messaging_october_2019-LegacyCode",
     "name": "Legacy Code Challenge",
     "image": "https://i.imgur.com/W4As35E.png",
-    "description": "Was assigned to fix errors and impliment testing on some legacy code writtin in Rails."
+    "description": "Took on a pre-existing application from Craft Academy and had to comb through it for erros and apply testing. The end result is 93% test coverage which is verified from coveralls (and displayed badge on my repo)."
   }
 ]

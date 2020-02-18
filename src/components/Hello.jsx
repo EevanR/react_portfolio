@@ -32,6 +32,7 @@ const Hello = () => {
             <div className="icons">
               <a href="https://www.linkedin.com/in/eevan-redon-579881199/" target="_blank"><i className="linkedin icon"></i></a>
               <a href="https://github.com/EevanR" target="_blank"><i className="github icon"></i></a>
+              <a href={`mailto: eevan.redon@gmail.com`} target="_blank"><i className="envelope outline icon"></i></a>
             </div>
           </div>
         </div>
