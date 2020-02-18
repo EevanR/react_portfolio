@@ -43,7 +43,7 @@ class Projects extends Component {
             <div className="column">
               <h2 className="titleText"><span id="blue">my</span>Projects</h2>
               <p>A few examples of weekly projects in collaboration with <span id="orange">Craft Accademy Stockholm</span>.
-              To see the code and other purley backend works click any of the GitHub icons around the site.</p>
+              To see the code click any of the GitHub icons. Additional projects can be found on GitHub.</p>
             </div>
           </div>
           <div className="ui stackable two column grid">

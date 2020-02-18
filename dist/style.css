@@ -94,7 +94,7 @@ p {
 .bottom-left {
   position: absolute;
   top: 60%;
-  color: black;
+  color: #1b1d24;
   background-color: rgb(219, 223, 219);
   width: 100%;
   padding: 5%;
@@ -214,7 +214,7 @@ p {
 }
 
 .zoom:hover {
-  height: 450px;
+  height: 510px;
   line-height:50px;
   display: block;
   border-bottom-left-radius: 20px;
@@ -238,6 +238,7 @@ p {
   display: block;
   text-align: center;
   margin: 2%;
+  font-size: 14px;
 }
 
 .description {
