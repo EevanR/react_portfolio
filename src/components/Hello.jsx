@@ -5,13 +5,13 @@ import { Link } from "react-scroll";
 import { Parallax } from "react-parallax";
 
 const image1 =
-  "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
+  "https://images.unsplash.com/photo-1558367853-fd760bbe56b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80";
 
 const Hello = () => {
   return (
     <>
       <div className="hello-section" id="hello">
-        <Parallax bgImage={image1} strength={500}>
+        <Parallax bgImage={image1} strength={1000}>
           <div className="hello-parallax-div">
             <div className="main-text-parallax">
               <h1>

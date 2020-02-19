@@ -10,7 +10,7 @@ footer {
 }
 
 body {
-  background-color: #272935;
+  background-color: #313236;
   color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -149,7 +149,7 @@ p {
 }
 
 .ui.stackable.four.column.grid {
-  padding-top: 10em;
+  padding-top: 6em;
   margin-bottom: 5%;
   text-align: center;
   -webkit-box-pack: center;
@@ -279,7 +279,7 @@ p {
 .hello-section {
   min-height: 800px;
   height: 100vh;
-  background-color: #272935;
+  background-color: #313236;
 }
 
 .about-section {
@@ -295,7 +295,7 @@ p {
 .projects-section {
   min-height: 900px;
   height: 100vh;
-  background-color: #272935;
+  background-color: #313236;
 }
 
 .ui.circular.icon.button {
@@ -414,7 +414,7 @@ a#orange {
   text-align: center;
   width: 100%;
   height: auto;
-  background-color: #272935;
+  background-color: #313236;
   background-size: cover;
   overflow: hidden;
   border-radius: 0 0 85% 85% / 30%;
