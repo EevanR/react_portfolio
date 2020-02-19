@@ -28,11 +28,9 @@ class Header extends Component {
     const { nav } = this.state;
     return (
       <nav className='ui fixed inverted menu'>
-        <div className="ui container">
-          {nav}
-          <div className="right menu">
-            <a id="orange" href="https://1drv.ms/b/s!AoAKOo_731UpgREwkxaIif7nI9FD" target="_blank">Resume</a>
-          </div>
+        {nav}
+        <div className="right menu">
+          <a id="orange" href="https://1drv.ms/b/s!AoAKOo_731UpgREwkxaIif7nI9FD" target="_blank">Resume</a>
         </div>
       </nav>
     )

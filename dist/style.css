@@ -1,20 +1,8 @@
-footer {
-  left:0px;
-  bottom:0px;
-  height:30px;
-  width:100%;
-  padding-top: 10px;
-  margin-top: 0;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 body {
   background-color: #313236;
   color: rgb(250, 236, 220);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
 }
 
 h1 {
@@ -53,10 +41,6 @@ p {
   align-content: center;
 }
 
-.white {
-  color: white;
-}
-
 #banner {
   padding-top: 12%;
 }
@@ -74,23 +58,11 @@ p {
   margin-left: 19%;
 }
 
-#greeting {
-  margin-top: 2%;
-}
-
 .ui.main.container {
   margin-bottom: 50px;
   padding-top: 4em;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-.ui.container {
-  width: 100%;
-  left: 0;
-  right: 0;
-  position: absolute;
-
 }
 
 .bottom-left {
@@ -113,10 +85,6 @@ p {
   text-align: center;
 }
 
-.ui.menu {
-  max-height: 40px;
-}
-
 .ui.card {
   width: 400px;
   max-height: 300px;
@@ -124,24 +92,6 @@ p {
   box-shadow: 0px 0px 0px rgba(219, 223, 219, 0.242);
   opacity: 0.9;
   color: black;
-}
-
-.ui.card:last-child {
-  margin-bottom: 20px;
-  max-height: 300px;
-}
-
-.ui.grid+.gro {
-  margin-bottom: 70px;
-}
-
-.ui.grid+.grid {
-  place-content: center;
-}
-
-.ui.inverted.menu .item {
-  height: max-content;
-  font-size: 90%;
 }
 
 .ui.stackable.two.column.grid {
@@ -158,6 +108,7 @@ p {
 
 .ui.inverted.menu {
   opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.336);
 }
 
 .fade-appear,
@@ -183,12 +134,6 @@ p {
 .welcome {
   text-align: center;
   padding-top: 20%;
-}
-
-#uiHome {
-  height: 100%;
-  padding: 0;
-  margin: 0;
 }
 
 .zoom {
@@ -226,10 +171,6 @@ p {
   text-align: center;
   margin: 2%;
   font-size: 14px;
-}
-
-.description {
-  text-align: center;
 }
 
 #description2 {
@@ -283,7 +224,7 @@ p {
 }
 
 .about-section {
-  min-height: 1700px;
+  min-height: 1780px;
   height: 100vh;
   background-color: #1b1d24;
 }
@@ -324,28 +265,21 @@ p {
 }
 
 .skills{
-  width: 50%;
-  padding-left: 70%;
+  padding-left: 60%;
   font-size: 80px;
-  line-height: 1.6em;
+  line-height: 1.70em;
 }
 
 .skills-desc{
   padding-left: 10%;
   padding-top: .5em;
   width: 70%;
-  line-height: 1.5em;
 }
 
 .arrow.down.icon {
   color:  rgb(117, 162, 230);
   font-size: 15px;
   margin-left: 15px;
-}
-
-#large-letter {
-  font-size: 25px;
-  letter-spacing: 2px;
 }
 
 span#orange {
@@ -365,10 +299,6 @@ span#orange {
   border-radius: 85% 85% 0 0 / 30%;
 }
 
-#pfooter {
-  font-size: 20px;
-}
-
 a#orange {
   padding-top: 10px;
   font-size: 20px;
@@ -377,10 +307,14 @@ a#orange {
 .main-text-parallax {
   padding: 20;
   position: absolute;
-  top: 28%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%,-50%);
   text-align: center;
+}
+
+.right.menu {
+  margin-right: 15px!important;
 }
 
 .text-parallax {
@@ -393,7 +327,6 @@ a#orange {
 
 .hello-parallax-div {
   height: 600px;
-  backdrop-filter: contrast(1.0) brightness(1.5) sepia(0.3); 
 }
 
 .projects-parallax-div{
@@ -403,11 +336,6 @@ a#orange {
 .about-parallax-div{
   height: 250px;
 }
-
-.right.menu {
-  margin-right: 1%!important;
-}
-
 
 .abouts-header {
   padding-top: 3em;

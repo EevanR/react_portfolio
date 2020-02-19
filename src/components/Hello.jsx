@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { Parallax } from "react-parallax";
 
 const image1 =
-  "https://images.unsplash.com/photo-1558367853-fd760bbe56b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80";
+  "https://images.unsplash.com/photo-1575318634026-38fb9e8157d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1533&q=80";
 
 const Hello = () => {
   return (
@@ -17,15 +17,15 @@ const Hello = () => {
               <h1>
                 Eevan Redon
               </h1>
-              <p id="welcome-text"><span id="large-letter">Hello,</span> I'm a new <span id="orange">Full Stack Developer</span>,
+              <p id="welcome-text">Hello, I'm a new <span id="orange">Full Stack Developer</span>,
                 in the Stockholm area, currently using Rails and React to build my projects.
                 Have a look around and visit my GitHub link to see some of my code.
               </p>
             </div>
           </div>
         </Parallax>
-        <div id="uiHome" className="ui main container">
-          <div id="greeting" className="centerText">
+        <div className="ui main container">
+          <div className="centerText">
             <button className="ui vertical animated button">
               <div className="visible content"><span id="blue">View Projects</span></div>
               <Link className="hidden content"
