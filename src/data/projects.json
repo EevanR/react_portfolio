@@ -1,60 +1,50 @@
 [
   {
     "id": 1,
+    "buildTime": "2 weeks",
+    "link": "https://tripwiz.netlify.com/",
+    "gitHub": "https://github.com/EevanR/tripwiz_client",
+    "gitHubAPI": "https://github.com/EevanR/tripwiz_API",
+    "name": "TripWiz",
+    "image": "https://i.imgur.com/nVtMMPr.png",
+    "description": "Final project, during our final design sprint, the 4 of us were able to share the common view of TripWiz. A React redux client with our own Rails backend/API, external google and amadeus API's were also used for fetching necessary data. TripWiz is an application that provides its user with a suggested itinerary for city to city visits."
+  },
+  {
+    "id": 2,
+    "buildTime": "3 weeks",
     "link": "https://the-reactive-herald-ca.netlify.com/",
     "gitHub": "https://github.com/EevanR/the_reactive_herald_client",
     "gitHubAPI": "https://github.com/EevanR/the_reactive_herald_API",
     "name": "The Reactive Herald",
     "image": "https://i.imgur.com/iqVLJBu.png",
-    "description": "'Build a Newsroom' project. Client side in React Redux, Rails API, TDD with Cypress and Rspec, CI with Semaphore and test coverage with Coveralls. Subscription payments through Stripe."
+    "description": "'Build a Newsroom' project. Client side in React Redux connected to our own Rails API. As with all other projects, we drove this assignment forward through TDD using Cypress and Rspec. CI with Semaphore and test coverage with Coveralls. Subscription payments were set up through Stripe. At the Reactive Herald, one can sign in as different roles to either view, create, edit, publish, or delete aritcles. Additional external API calls are made for extra features. Image storage is set up through Amazon's AWS."
   },
   {
-    "id": 2,
+    "id": 3,
+    "buildTime": "1 week",
     "link": "https://cooper-client-eevan.netlify.com/",
     "gitHubAPI": "https://github.com/EevanR/cooper-api",
     "gitHub": "https://github.com/EevanR/cooper-client-react",
     "name": "Cooper Run App",
     "image": "https://i.imgur.com/Tr9e9uH.png",
-    "description": "React front-end connected to Rails API, Devise authentication and TDD with RSpec and Cypress"
-  },
-  {
-    "id": 3,
-    "link": "https://slowfood-oct2019.herokuapp.com/",
-    "gitHub": "https://github.com/EevanR/slowfood-october-2019",
-    "name": "Greta's Greens",
-    "image": "https://i.imgur.com/kx1qP2Y.png",
-    "description": "Developed with Ruby on Rails, Quick food order application. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec.  CI with Semaphore and test coverage with Coveralls "
+    "description": "Before the Cooper Run App, Ruby/Rails and javaScript/React applications were created seperately. In the Cooper Run App I connect React front-end to Rails back-end via axios and rack-cors, while maintatiing the TDD practice to ensure the efficiency and solidity of my code. With the Cooper Run App, in a single page app style view, log your runs and have them graded based on the military's cooper tests, and see your saved data displayed to you in charts."
   },
   {
     "id": 4,
+    "buildTime": "1 week",
+    "link": "https://slowfood-oct2019.herokuapp.com/",
+    "gitHubAPI": "https://github.com/EevanR/slowfood-october-2019",
+    "name": "Greta's Greens",
+    "image": "https://i.imgur.com/kx1qP2Y.png",
+    "description": "Developed with Ruby on Rails, Quick food order application. Authentication with Devise, feature tests with Cucumber and unit tests with Rspec.  CI with Semaphore and test coverage with Coveralls. Throughout Greta's Greens, CRUD actions are put together with PostgreSQL database to resemble a working online food service."
+  },
+  {
+    "id": 5,
+    "buildTime": "on-going",
     "link": "https://eevanrportfolio.netlify.com/",
     "gitHub": "https://github.com/EevanR/react_portfolio",
     "name": "React Portfolio",
     "image": "https://i.imgur.com/gVBRMMU.png",
-    "description": "Developed with React."
-  },
-  {
-    "id": 5,
-    "link": "https://ca-rails-aut-eevan.herokuapp.com/",
-    "gitHub": "https://github.com/EevanR/RubyonRails",
-    "name": "Rails Article Application",
-    "image": "https://i.imgur.com/XV98QDq.png",
-    "description": "Minimally styled Rails application, Devise Authentication, Pundit authorization. Cucumber and Rspec TDD."
-  },
-  {
-    "id": 6,
-    "link": "https://legacy-code-eevan.herokuapp.com/",
-    "gitHub": "https://github.com/EevanR/rails_messaging_october_2019-LegacyCode",
-    "name": "Legacy Code Challenge",
-    "image": "https://i.imgur.com/W4As35E.png",
-    "description": "Was assigned to fix errors and impliment testing on some legacy code writtin in Rails."
-  },
-  {
-    "id": 7,
-    "link": "https://eevanr.github.io/address_book/",
-    "gitHub": "https://github.com/EevanR/address_book",
-    "name": "Address Book",
-    "image": "https://i.imgur.com/2vosk54.png",
-    "description": "Minimally styled browser based address book to store contacts. Written in javaScript, feature tests Cucumber."
+    "description": "Developed with React. Working with components to render data stored in json files, the React Portfolio has test coverage with Cypress, while including HTML and CSS to present past projects, information about myself, and my resume."
   }
 ]
