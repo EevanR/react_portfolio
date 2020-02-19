@@ -1,13 +1,11 @@
 footer {
-  position:fixed;
   left:0px;
   bottom:0px;
-  height:50px;
+  height:30px;
   width:100%;
   padding-top: 10px;
-  padding-bottom: 10px;
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -38,8 +36,14 @@ h3 {
   font-size: 25px;
 }
 
+h4 {
+  font-family: 'open sans',arial,sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
 p {
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'open sans',arial,sans-serif;
   font-weight: 200;
 }
@@ -55,7 +59,6 @@ p {
 
 #banner {
   padding-top: 12%;
-  padding-bottom: 10%;
 }
 
 #orange {
@@ -71,20 +74,19 @@ p {
   margin-left: 19%;
 }
 
-.banner {
-  font-size: 40px;
+#greeting {
+  margin-top: 2%;
 }
 
 .ui.main.container {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-top: 4em;
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .ui.container {
-  width: 95%;
-  margin-bottom: 100px;
+  width: 100%;
   left: 0;
   right: 0;
   position: absolute;
@@ -143,7 +145,14 @@ p {
 }
 
 .ui.stackable.two.column.grid {
+  margin-bottom: 2%;
+}
+
+.ui.stackable.four.column.grid {
   margin-bottom: 10%;
+  text-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
 }
 
 .ui.inverted.menu {
@@ -175,33 +184,10 @@ p {
   padding-top: 20%;
 }
 
-.headshot {
-  height: 400px;
-  border-radius: 20%;
-  top: 1em;
-  right: 30%;
-  position: absolute;
-  z-index: -1;
-  filter: grayscale(40%);
-}
-
-#jobslist {
-  margin-top: 60px;
-  place-content: center;
-  margin-bottom: 60px;
-}
-
 #uiHome {
   height: 100%;
   padding: 0;
   margin: 0;
-}
-
-.jobsTitle {
-  height: 50px;
-  padding: 10px ;
-  text-align: center;
-  
 }
 
 .zoom {
@@ -254,8 +240,11 @@ p {
 }
 
 #divider {
-  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 100%;
   border-top: 1px solid grey;
+  font-size: 14px!important;
 }
 
 @font-face {
@@ -268,9 +257,9 @@ p {
 .icons {
   width: 75%;
   border-top: 1px solid grey;
-  margin-top: 50px;
-  padding-top: 25px;
-  font-size: 50px;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 40px;
   position: relative;
   top: 60%;
   left: 50%;
@@ -292,7 +281,7 @@ p {
 }
 
 .about-section {
-  min-height: 950px;
+  min-height: 1600px;
   height: 100vh;
   background-color: #1b1d24;
 }
@@ -333,15 +322,17 @@ p {
 }
 
 .skills{
-  width: 100%;
-  padding-left: 25%;
-  padding-right: 20%;
+  width: 50%;
+  padding-left: 70%;
   font-size: 80px;
-  text-align: center;
+  line-height: 1.6em;
 }
 
-.skills i{
-  margin-right: 5%;
+.skills-desc{
+  padding-left: 5%;
+  padding-top: 30px;
+  width: 70%;
+  line-height: 1.5em;
 }
 
 .arrow.down.icon {
@@ -376,4 +367,37 @@ span#orange {
 a#orange {
   padding-top: 10px;
   font-size: 20px;
+}
+
+.main-text-parallax {
+  padding: 20;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.text-parallax {
+  padding-right: 10%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  color: rgb(58, 56, 56);
+}
+
+.hello-parallax-div {
+  height: 600px;
+}
+
+.projects-parallax-div{
+  height: 300px;
+}
+
+.about-parallax-div{
+  height: 250px;
+}
+
+.right.menu {
+  margin-right: 1%!important;
 }

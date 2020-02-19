@@ -2,20 +2,30 @@ import React from "react"
 import Projects from "./Projects"
 import About from "./About"
 import { Link } from "react-scroll";
+import { Parallax } from "react-parallax";
+
+const image1 =
+  "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
 
 const Hello = () => {
   return (
     <>
       <div className="hello-section" id="hello">
+        <Parallax bgImage={image1} strength={500}>
+          <div className="hello-parallax-div">
+            <div className="main-text-parallax">
+              <h1>
+                Eevan Redon
+              </h1>
+              <p id="welcome-text"><span id="large-letter">Hello,</span> I'm a new <span id="orange">Full Stack Developer</span>,
+                in the Stockholm area, currently using Rails and React to build my projects.
+                Have a look around and visit my GitHub link to see some of my code.
+              </p>
+            </div>
+          </div>
+        </Parallax>
         <div id="uiHome" className="ui main container">
-          <div id="greeting" className="centered">
-            <h1>
-              Eevan Redon
-            </h1>
-            <p id="welcome-text"><span id="large-letter">Hello,</span> I'm a new <span id="orange">Full Stack Developer</span>, 
-              in the Stockholm area, currently using <span id="red">Rails</span> and <span id="light-blue">React</span> to build my projects.
-              Have a look around, and visit the links, to learn a bit about me!
-            </p>
+          <div id="greeting" className="centerText">
             <button className="ui vertical animated button">
               <div className="visible content"><span id="blue">View Projects</span></div>
               <Link className="hidden content"
