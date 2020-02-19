@@ -11,7 +11,7 @@ const Hello = () => {
   return (
     <>
       <div className="hello-section" id="hello">
-        <Parallax bgImage={image1} strength={1000}>
+        <Parallax bgImage={image1} strength={1200}>
           <div className="hello-parallax-div">
             <div className="main-text-parallax">
               <h1>
