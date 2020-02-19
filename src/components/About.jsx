@@ -15,9 +15,9 @@ const About = () => {
           </div>
           <div className="ui main container">
             <div className="ui stackable two column grid">
-              <div id="" className="column">
+              <div className="column">
                 <div className="skills">
-                  <i className="handshake outline icon"></i>
+                  <i style={{color: "darkorange"}} className="handshake outline icon"></i>
                   <i className="aws icon"></i>
                   <i className="stripe icon"></i>
                   <i className="github icon"></i>

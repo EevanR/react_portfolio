@@ -11,7 +11,7 @@ footer {
 
 body {
   background-color: #313236;
-  color: white;
+  color: rgb(250, 236, 220);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -283,7 +283,7 @@ p {
 }
 
 .about-section {
-  min-height: 1800px;
+  min-height: 1700px;
   height: 100vh;
   background-color: #1b1d24;
 }
@@ -354,7 +354,7 @@ span#orange {
 
 .footer {
   text-align: center;
-  color: whitesmoke;
+  color: rgb(250, 236, 220);
   width: 100%;
   bottom: 0;
   padding-top: 3em;
@@ -396,7 +396,7 @@ a#orange {
 }
 
 .projects-parallax-div{
-  height: 370px;
+  height: 300px;
 }
 
 .about-parallax-div{
@@ -409,8 +409,8 @@ a#orange {
 
 
 .abouts-header {
-  padding-top: 6em;
-  padding-bottom: 3em;
+  padding-top: 3em;
+  padding-bottom: 2em;
   text-align: center;
   width: 100%;
   height: auto;
