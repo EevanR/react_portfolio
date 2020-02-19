@@ -34,7 +34,7 @@ const Hello = () => {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={20}
+                offset={50}
                 duration={500}>
                 <i aria-hidden="true" className="arrow down icon"></i>
               </Link>
