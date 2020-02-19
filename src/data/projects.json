@@ -46,23 +46,5 @@
     "name": "React Portfolio",
     "image": "https://i.imgur.com/gVBRMMU.png",
     "description": "Developed with React. Working with components to render data stored in json files, the React Portfolio has test coverage with Cypress, while including HTML and CSS to present past projects, information about myself, and my resume."
-  },
-  {
-    "id": 6,
-    "buildTime": "1 week",
-    "link": "https://ca-rails-aut-eevan.herokuapp.com/",
-    "gitHubAPI": "https://github.com/EevanR/RubyonRails",
-    "name": "Rails Article Application",
-    "image": "https://i.imgur.com/XV98QDq.png",
-    "description": "One of the 1st examples of building a fully functional application using Ruby on Rails. CRUD actions are used to operate this article/blog platform, where one can register, sign in, write, read, comment on and delete articles. It is minimally styled while focusing mainly on functionality. Devise Authentication, Pundit authorization. Cucumber and Rspec TDD. Future plans are to add styling and functionality, such as subscriptions and payments through stripe."
-  },
-  {
-    "id": 7,
-    "buildTime": "4 days",
-    "link": "https://legacy-code-eevan.herokuapp.com/",
-    "gitHubAPI": "https://github.com/EevanR/rails_messaging_october_2019-LegacyCode",
-    "name": "Legacy Code Challenge",
-    "image": "https://i.imgur.com/W4As35E.png",
-    "description": "Took on a pre-existing application from Craft Academy and had to comb through it for erros and apply testing. The end result is 93% test coverage which is verified from coveralls (and displayed badge on my repo)."
   }
 ]

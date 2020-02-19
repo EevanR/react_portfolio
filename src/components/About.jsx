@@ -36,13 +36,13 @@ const About = () => {
                   <h4>Stripe Payments</h4>
                   <p id="divider">Stripe is implimented on a number of my projects to represent potential payment mathods.</p>
                   <h4>GitHub Version Controll</h4>
-                  <p id="divider">All Projects build with Git version controll. Git is also used for collaboration work via git pong and open repositories.</p>
+                  <p id="divider">All Projects are built with Git version controll. Git is also used for collaboration work via git pong and sharing open repositories.</p>
                   <h4>HTML 5</h4>
                   <p id="divider">Web page content is always delivered by implementing HTML 5.</p>
-                  <h4>javaScript</h4>
-                  <p id="divider">Of course, among other things, to build my front-ends with react and redux, an understanding of javaScript is essential.</p>
+                  <h4>JavaScript</h4>
+                  <p id="divider">Of course, among other things, to build a front-end with react and redux, an understanding of JavaScript is essential.</p>
                   <h4>NPM</h4>
-                  <p id="divider">NPM is one the tools I prefer using as a Javascript package manager, along with yarn.</p>
+                  <p id="divider">NPM is one of the tools I prefer using as a JavaScript package manager, along with yarn.</p>
                   <h4>React.js Redux</h4>
                   <p id="divider">When I started building user interfaces, I prefered to use the Javascript library, React! Now, React with Redux is always the go-to.</p>
                 </div>
