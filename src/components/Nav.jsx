@@ -17,7 +17,7 @@ const Nav = () => {
         to="about"
         spy={true}
         smooth={true}
-        offset={10}
+        offset={30}
         duration={500}
       >ABOUT</Link>
       <Link id="scroll"
@@ -25,7 +25,7 @@ const Nav = () => {
         to="projects"
         spy={true}
         smooth={true}
-        offset={20}
+        offset={50}
         duration={500}
       >PROJECTS</Link>
     </div>

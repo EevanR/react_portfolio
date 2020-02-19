@@ -149,7 +149,8 @@ p {
 }
 
 .ui.stackable.four.column.grid {
-  margin-bottom: 10%;
+  padding-top: 5em;
+  margin-bottom: 5%;
   text-align: center;
   -webkit-box-pack: center;
   justify-content: center;
@@ -276,6 +277,7 @@ p {
 }
 
 .hello-section {
+  min-height: 800px;
   height: 100vh;
   background-color: #272935;
 }
@@ -329,7 +331,7 @@ p {
 }
 
 .skills-desc{
-  padding-left: 5%;
+  padding-left: 10%;
   padding-top: 30px;
   width: 70%;
   line-height: 1.5em;
@@ -351,13 +353,16 @@ span#orange {
 }
 
 .footer {
-  border-bottom: 1px solid grey;
   text-align: center;
   color: whitesmoke;
-  height: 30px;
   width: 100%;
   bottom: 0;
-  margin-bottom: 2%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  height: auto;
+  background-color: #1b1d24;
+  overflow: hidden;
+  border-radius: 85% 85% 0 0 / 30%;
 }
 
 #pfooter {
@@ -381,7 +386,7 @@ a#orange {
 .text-parallax {
   padding-right: 10%;
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   color: rgb(58, 56, 56);
 }
@@ -400,4 +405,30 @@ a#orange {
 
 .right.menu {
   margin-right: 1%!important;
+}
+
+
+.abouts-header {
+  padding-top: 6em;
+  padding-bottom: 3em;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #272935;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+
+.projects-bottom {
+  bottom: 0;
+  padding-top: 6em;
+  padding-bottom: 3em;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #1b1d24;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 85% 85% 0 0 / 30%;
 }

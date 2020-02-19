@@ -51,18 +51,16 @@ class Projects extends Component {
             </div>
           </div>
         </Parallax>
-        <div className="ui main container">
           <div className="ui stackable four column grid">
             {projectsList}
           </div>
           <div className="centerText">
             <div className="footer">
               <a href={`mailto: eevan.redon@gmail.com`}><p id="pfooter">Email: eevan.redon@gmail.com</p></a>
+              <p>Made with React</p>
+              <Footer />
             </div>
-            <p>Made with React</p>
           </div>
-          <Footer />
-        </div>
       </div>
     )
   }

@@ -5,18 +5,15 @@ const About = () => {
 
   return (
     <div className="about-section" id="about">
-      <div className="ui main container">
-        {CvInfo.map((info) => {
-          return <div>
-            <div className="ui stackable two column grid">
-              <div id="banner" className="column">
-                <h3>Mission:</h3>
-                <p id="bannerText">"{info.profile}"</p>
-              </div>
-              <div className="column">
-                <h2 className="titleText">skills&<span id="blue">Education</span></h2>
-              </div>
-            </div>
+      {CvInfo.map((info) => {
+        return <div>
+          <div className="abouts-header">
+            <h2 className="titleText">skills&<span id="blue">Education</span></h2>
+            <h3>Mission:</h3>
+            <p id="bannerText">"{info.profile}"</p>
+            <p>A few of my skills are listed below, for more, have a look at my CV or linkedin.</p>
+          </div>
+          <div className="ui main container">
             <div className="ui stackable two column grid">
               <div id="" className="column">
                 <div className="skills">
@@ -59,8 +56,8 @@ const About = () => {
               </a>
             </div>
           </div>
-        })}
       </div>
+      })}
     </div>
   )
 }
