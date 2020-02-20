@@ -4,10 +4,10 @@ import About from "./About"
 import { Link } from "react-scroll";
 import { Parallax } from "react-parallax";
 
-const image1 =
-  "https://images.unsplash.com/photo-1575318634026-38fb9e8157d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1533&q=80";
-
 const Hello = () => {
+
+  const image1 = "./dist/images/desktop-pic.jpeg";
+
   return (
     <>
       <div className="hello-section" id="hello">

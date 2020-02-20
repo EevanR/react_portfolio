@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="about-section" id="about">
       {CvInfo.map((info) => {
-        return <div>
+        return <div key={info}>
           <div className="abouts-header">
             <h2 className="titleText">A Few skills & <span id="blue">Education</span></h2>
             <h3>Mission:</h3>
