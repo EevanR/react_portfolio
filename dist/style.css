@@ -98,6 +98,10 @@ p {
   margin-bottom: 2%;
 }
 
+#pfooter {
+  padding-bottom: 2em;
+}
+
 .ui.stackable.four.column.grid {
   padding-top: 6em;
   margin-bottom: 5%;
@@ -166,6 +170,7 @@ p {
   color: white;
   display: none;
 }
+
 .zoom:hover p {
   display: block;
   text-align: center;
@@ -217,9 +222,10 @@ p {
 }
 
 .about-section {
-  min-height: 1780px;
+  min-height: 1800px;
   height: 100vh;
   background-color: #1b1d24;
+  overflow: auto;
 }
 
 .scroll > .active {

@@ -8,7 +8,7 @@ const About = () => {
       {CvInfo.map((info) => {
         return <div key={info}>
           <div className="abouts-header">
-            <h2 className="titleText">A Few skills & <span id="blue">Education</span></h2>
+            <h2 className="titleText">A few skills & <span id="blue">Education</span></h2>
             <h3>Mission:</h3>
             <p id="bannerText">"{info.profile}"</p>
             <p>Some of my skills are listed below, for more, have a look at my CV or linkedin.</p>
