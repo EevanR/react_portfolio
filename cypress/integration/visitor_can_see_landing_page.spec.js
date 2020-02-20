@@ -5,51 +5,32 @@ describe('Visitor can see all pages', () => {
         cy.visit('/')
 
         cy.get("nav")
-            .should("contain", "About Me")
-            .and("contain", "Projects")
-            .and("contain", "Portfolio")
+            .should("contain", "ABOUT")
+            .and("contain", "PROJECTS")
             .and("contain", "Resume")
 
-        cy.get(".ui.main.container")
-            .should("contain", "Welcome.")
+        cy.get(".hello-parallax-div")
+            .should("contain", "Eevan Redon")
     });
 
     it('visitor can see content on projects page', () => {
-        cy.visit('/')
 
         cy.get("nav").within(() => {
-            cy.contains("Projects").click()
+            cy.contains("PROJECTS").click()
+            cy.wait(1000)
         })
 
-        cy.get(".ui.card").should("have.length", 4)
+        cy.get(".ui.card").should("have.length", 5)
 
         cy.get(".ui.card")
-            .should("contain", "BMI Calculator")
-            .and("contain", "FizzBuzz")
-            .and("contain", "Address Book")
-            .and("contain", "Unavailable")
-
-        cy.get(".ui.card").contains("BMI Calculator").click()
+            .should("contain", "TripWiz")
+            .and("contain", "The Reactive Herald")
+            .and("contain", "Cooper")
     });
 
-    it('visitor can see content on resume page', () => {
-        cy.visit('/')
+    it('visitor can see content on about page', () => {
 
-        cy.get("nav").contains("Resume").click()
-
-        cy.get(".column")
-            .should("contain", "Resume")
-
-        cy.get(".ui.main.container.fade-enter-done")
-            .should("contain", "to continue")
-            
-        cy.get(".centerText").contains("My Working Life")
-
-        cy.get(".column").find("img").should("be.visible")
-
-        cy.get(".zoom").should("have.length", 3)
-
-        cy.get(".ui.main.container").contains("cv.education")
-    
+        cy.get("nav").contains("ABOUT").click()
+        cy.get(".skills-desc").should('contain', 'Collaboration')
     });
 })

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --mode development --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "yarn start --silent & cypress open"
+
   },
   "keywords": [],
   "author": "",
@@ -27,6 +29,7 @@
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "cypress": "^4.0.2",
     "style-loader": "^0.23.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.19.1",
