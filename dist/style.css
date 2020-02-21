@@ -1,5 +1,5 @@
 body {
-  background-color: #313236;
+  background-color: #1b1d24;
   color: rgb(250, 236, 220);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -232,7 +232,8 @@ p {
 .projects-section {
   min-height: 900px;
   height: 100vh;
-  background-color: #313236;
+  background-color: #1b1d24;
+
 }
 
 .ui.circular.icon.button {
@@ -275,7 +276,6 @@ p {
 .arrow.down.icon {
   color:  rgb(117, 162, 230);
   font-size: 15px;
-  margin-left: 15px;
 }
 
 span#orange {
@@ -290,7 +290,7 @@ span#orange {
   padding-top: 3em;
   padding-bottom: 3em;
   height: auto;
-  background-color: #1b1d24;
+  background-color: #313236;
   overflow: hidden;
   border-radius: 85% 85% 0 0 / 30%;
 }
@@ -350,19 +350,18 @@ a#orange {
   text-align: center;
   width: 100%;
   height: auto;
-  background-color: #1b1d24;
+  background-color: #313236;
   background-size: cover;
   overflow: hidden;
   border-radius: 85% 85% 0 0 / 30%;
 }
 
 #hello-hello {
-  margin-top: 20px;
   font-size: 400px;
   float: left;
   line-height: .52em;
   position: relative;
   z-index: 0;
   color: rgba(63, 63, 63, 0.324);
-  transform: translate(1%, 100%);
+  margin-top: 13%;
 }
