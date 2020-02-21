@@ -17,7 +17,7 @@ const Nav = () => {
         to="about"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={40}
         duration={500}
       >ABOUT</Link>
       <Link id="scroll"
@@ -28,6 +28,7 @@ const Nav = () => {
         offset={50}
         duration={500}
       >PROJECTS</Link>
+      <a id="orange" href="https://1drv.ms/b/s!AoAKOo_731UpgREwkxaIif7nI9FD" target="_blank">Resume</a>
     </div>
   );
 }
