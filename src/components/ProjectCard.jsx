@@ -17,8 +17,6 @@ const ProjectCard = (props) => {
                 <a href={project.gitHubAPI} target="_blank"><i style={{ color: "red" }} className="github icon"></i></a>
               )}
             </h5>
-            <br />
-            <span id="orange">Build Time: {project.buildTime}</span>
           </div>
           <p>{project.description}</p>
         </div>

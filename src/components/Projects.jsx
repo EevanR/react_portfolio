@@ -37,8 +37,8 @@ const Projects = () => {
         <div className="projects-parallax-div">
           <div className="text-parallax">
             <h2 className="titleText"><span id="blue">my</span>Projects</h2>
-            <p>A few examples of weekly projects in collaboration with <span id="blue">Craft Accademy Stockholm</span>.
-              To see the code click any of the GitHub icons. Additional projects can be found on GitHub.</p>
+            <h4>A few examples of weekly projects in collaboration with <span id="blue">Craft Accademy Stockholm</span>.
+              To see the code click any of the GitHub icons. Additional projects can be found on GitHub.</h4>
           </div>
         </div>
       </Parallax>

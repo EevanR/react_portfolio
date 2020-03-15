@@ -25,10 +25,10 @@ const Nav = () => {
         to="projects"
         spy={true}
         smooth={true}
-        offset={50}
+        offset={0}
         duration={500}
       >PROJECTS</Link>
-      <a id="orange" href="https://1drv.ms/b/s!AoAKOo_731UpgREwkxaIif7nI9FD" target="_blank">Resume</a>
+      <a id="orange" href="https://1drv.ms/b/s!AoAKOo_731UpgRI3fq6ljzgbQDO5" target="_blank">Resume</a>
     </div>
   );
 }

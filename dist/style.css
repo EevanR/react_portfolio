@@ -312,10 +312,9 @@ a#orange {
 }
 
 .text-parallax {
-  padding-right: 10%;
+  text-align: center;
+  padding: 50px 30%;
   position: absolute;
-  top: 30%;
-  left: 50%;
   color: rgb(58, 56, 56);
 }
 
